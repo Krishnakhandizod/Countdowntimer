@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Roboto+Slab:wght@500&family=Ubuntu:wght@300&display=swap");
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif")
+    center center;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-family: "pacifico";
+  font-weight: 900;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.col {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+
+.col div {
+  width: 250px;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: transparent;
+  border-radius: 5px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
